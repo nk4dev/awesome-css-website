@@ -5,6 +5,8 @@
     <meta name="description" content="A demonstration of awesome CSS animations">
     <link rel="icon" type="image/x-icon" href="https://nknighta.me/favicon.ico">
     <meta property="og:image" content="https://ogp-img-gen.vercel.app/api/img-gen?text=Awesome-Css-Website">
+    <meta property="og:title" content="Awesome CSS Animation">
+    <meta property="og:description" content="A demonstration of awesome CSS animations">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://ogp-img-gen.vercel.app/api/img-gen?text=Awesome-Css-Website">
     <meta name="twitter:site" content="@nk4dev">
@@ -237,8 +239,29 @@
     .retrobg-vline+.retrobg-vline {
         margin-left: 48px;
     }
-</style>
 
+    header {
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    header a {
+        text-decoration: none;
+        color: inherit;
+    }
+    header span {
+        padding: 0 20px ;
+    }
+</style>
+<header>
+    <a href="//nknighta.me" target="_blank">my website</a>
+    <span> | </span>
+    <a href="https://alvarotrigo.com/blog/animated-backgrounds-css/">original code</a>
+</header>
 <div id="retrobg">
     <div id="retrobg-sky">
         <div id="retrobg-stars">
